@@ -20,6 +20,7 @@ button {
   border: none;
   border-radius: 8px;
   background: #eee;
+  padding: 10px;
 }
 
 input {
@@ -37,13 +38,18 @@ input {
 
 .left-links, .right-links {
   display: flex;
-  gap: 20px;
+  gap: 10px;
 }
 
 ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: grey;
 }
 
 .content {
